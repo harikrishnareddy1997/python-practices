@@ -1,0 +1,12 @@
+tel = {'jack': 4098, 'sape': 4139}
+# print(tel.items())
+# print(tel.keys())
+# print(tel.values())
+# print(list(tel))
+# print(sorted(tel))
+# dict1=dict(sape=4139, guido=4127, jack=4098)
+# print(dict1)
+dict2=dict([('sape', 4139),('guido', 4127),('jack', 4098),('sape1', 4139),('guido1', 4127),('jack1', 4098)])
+print(dict2.values())
+print(dict2.items())
+print(dict2.keys())
